@@ -1,0 +1,104 @@
+# Copyright (c) 2009, Code Aurora Forum.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# 2010.11.30 tad modified in Chaina
+
+key 158   BACK              WAKE_DROPPED
+key 139   MENU              WAKE_DROPPED
+key 102   HOME              WAKE
+key 115   VOLUME_UP              WAKE
+key 114   VOLUME_DOWN              WAKE
+#key 212   CAMERA
+key 212   CAMERA
+key 528   FOCUS
+
+key 16    Q
+key 17    W
+key 18    E
+key 19    R
+key 20    T
+key 21    Y
+key 22    U
+key 23    I
+key 24    O
+key 25    P
+
+key 30    A
+key 31    S
+key 32    D
+key 33    F
+key 34    G
+key 35    H
+key 36    J
+key 37    K
+key 38    L
+key 14    DEL
+
+key 56    ALT_LEFT
+key 44    Z
+key 45    X
+key 46    C
+key 47    V
+key 48    B
+key 49    N
+key 50    M
+key 103   DPAD_UP           WAKE_DROPPED
+key 28    ENTER
+
+key 42    SHIFT_LEFT
+key 127   SYM
+key 217   SEARCH                WAKE_DROPPED
+key 51    COMMA
+key 57    SPACE
+key 52    PERIOD
+key 105   DPAD_LEFT         WAKE_DROPPED
+key 108   DPAD_DOWN         WAKE_DROPPED
+key 106   DPAD_RIGHT        WAKE_DROPPED
+key 116   POWER        		WAKE_DROPPED
+
+key 464   ALT_LEFT
+
+#20101210 tad_key del for android default slide event
+#20101209 tad_key for slide changed and added >>>
+# qiukan add new special key value in application layer for F14 1203
+#key 184   SLIDEUP			WAKE
+#key 185   SLIDEDN			WAKE
+# end F14 1203			
+# <<<
+
+# qiukan for substitue of sym button 20101211
+key 121 COMPOSE
+# end for substitute of sym button 20101211
+
+# qiukan for substitue of email button 20101213
+# yongjie.xiao. Change the map of key 215 to 'AT'. 20101216
+key 215 AT
+# end for substitute of sym button 20101213
+
+#ryan.baek Headset Hook switch key
+key 250   HEADSETHOOK	WAKE_DROPPED
+# <<<
+
+# qiukan map new special keys value for CIT 1203
+# KEYCODE_POWER(PLAY_PAUSE) KEYCODE_HOME(MEDIA_STOP) KEYCODE_ENDCALL(MEDIA_NEXT)
+# KEYCODE_VOLUME_UP(MEDIA_PREVIOUS) KEYCODE_VOLUME_DOWN(MEDIA_REWIND)
+# KEYCODE_SEARCH(MEDIA_FAST_FORWARD)
+key 164 MEDIA_PLAY_PAUSE	WAKE
+key 166 MEDIA_STOP			WAKE
+key 163 MEDIA_NEXT			WAKE
+key 165 MEDIA_PREVIOUS		WAKE
+key 168 MEDIA_REWIND		WAKE
+key 159 MEDIA_FAST_FORWARD	WAKE
+# end map new special keys value for CIT 1203
