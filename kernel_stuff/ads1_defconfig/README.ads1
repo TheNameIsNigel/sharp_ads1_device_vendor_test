@@ -1,0 +1,11 @@
+Default kernel config file pulled off a running stock Sharp FX PLus ads1, located in the following location:
+
+/proc/config.gz
+
+This file would go in the default configs for whatever kernel source you may find, in the following subfolder:
+
+arch/arm/configs/ads1_defconfig
+
+to setup the defaults enter this once everything is in place:
+
+make ads1_defconfig
