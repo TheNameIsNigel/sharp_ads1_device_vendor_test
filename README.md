@@ -20,9 +20,14 @@ Adreno 200 GPU
 2.6.32.9-perf kernel (original)
 
 more information on the device:
+
+-misc kernel notes
 http://acebox.info/2012/08/sharp-ads1-kernel-notes-revisted/
+-unpacking/repacking the boot.img
 http://acebox.info/2012/07/sharp-fx-plus-ads1-insecure-boot-img/
+-kernel and device info/dump
 http://acebox.info/2012/07/sharp-fx-plus-ads1-oem-kernel-config/
+-more device dump info
 http://acebox.info/2012/07/android-rom-dev-stuff/
 
 Thanks for looking, hopefully this will be of use.
