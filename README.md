@@ -8,12 +8,21 @@ Some bits from the Commtiva Z71 have been incorporated, namely the extract-files
 
 Official Kernel source is yet to be released, however the config is included on the device itself - which can be applied to other existing sources.  A copy of the device's kernel config can be found in the kernel_config subfolder.
 
-Also in the kernel_config folder I'll uploade samples built from other sources (with modules).
+RNorris97 has a github setup for CyanogenMod + Kernel support for this device - link here:
+https://github.com/rnorris97/sharp-ads1
+
+Also in the kernel_stuff folder I'll upload the ads1 default config, stock boot.img unpacked and experiments built from sources with modules (untested, and only for reference).
 
 Quick Specs on the device:
 
 MSM7227 ARM V6 (@ 600Mhz)
 Adreno 200 GPU
 2.6.32.9-perf kernel (original)
+
+more information on the device:
+http://acebox.info/2012/08/sharp-ads1-kernel-notes-revisted/
+http://acebox.info/2012/07/sharp-fx-plus-ads1-insecure-boot-img/
+http://acebox.info/2012/07/sharp-fx-plus-ads1-oem-kernel-config/
+http://acebox.info/2012/07/android-rom-dev-stuff/
 
 Thanks for looking, hopefully this will be of use.
