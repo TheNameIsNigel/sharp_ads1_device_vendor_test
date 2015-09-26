@@ -8,8 +8,8 @@ Some bits from the Commtiva Z71 have been incorporated, namely the extract-files
 
 Official Kernel source is yet to be released, however the config is included on the device itself - which can be applied to other existing sources.  A copy of the device's kernel config can be found in the kernel_config subfolder.
 
-RNorris97 has a github setup for CyanogenMod + Kernel support for this device - link here:
-https://github.com/rnorris97/sharp-ads1
+iAMr00t has a github setup for CyanogenMod + Kernel support for this device - link here:
+https://github.com/iAMr00t/sharp-ads1
 
 Also in the kernel_stuff folder I'll upload the ads1 default config, stock boot.img unpacked and experiments built from sources with modules (untested, and only for reference).
 
